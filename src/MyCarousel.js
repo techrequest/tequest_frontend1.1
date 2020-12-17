@@ -9,6 +9,14 @@ import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 import AdbIcon from '@material-ui/icons/Adb';
 import MarkunreadMailboxIcon from '@material-ui/icons/MarkunreadMailbox';
 import HowToRegIcon from '@material-ui/icons/HowToReg';
+import photomontage from './photomontage.jpg';
+import servicestext from './servicestext.jpg';
+import storefrontimg from './storefrontimg.jpg';
+import handimg from './handimg.jpg';
+import buildingblocks from './buildingblocks.jpg';
+import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
+import StoreIcon from '@material-ui/icons/Store';
+
 
 
 function MyCarousel(){
@@ -24,28 +32,28 @@ function MyCarousel(){
                                         <HomeIcon/> Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#" ><CardGiftcardIcon/> Promotions</a>
+                                    <a className="nav-link" href="promotions.js" ><CardGiftcardIcon/> Promotions</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#"><CategoryIcon/> Service Categories</a>
+                                    <a className="nav-link" href="servicecategories.js"><CategoryIcon/> Service Categories</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#"><CreateIcon/> Create</a>
+                                    <a className="nav-link" href="categorycreate.js"><CreateIcon/> Create</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#"><AccountBalanceIcon/> Construct</a>
+                                    <a className="nav-link" href="categoryconstruct.js"><AccountBalanceIcon/> Construct</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#"><AdbIcon/> Install</a>
+                                    <a className="nav-link" href="categoryinstall.js"><AdbIcon/> Install</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#"><BuildIcon/> Repair</a>
+                                    <a className="nav-link" href="categoryrepair.js"><BuildIcon/> Repair</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#"><HowToRegIcon/> Manage</a>
+                                    <a className="nav-link" href="categorymanage.js"><HowToRegIcon/> Manage</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#"><MarkunreadMailboxIcon/> Deliver</a>
+                                    <a className="nav-link" href="categorydeliver.js"><MarkunreadMailboxIcon/> Deliver</a>
                                 </li>
                             </ul>
                         </nav>
@@ -59,13 +67,25 @@ function MyCarousel(){
                             </ol>
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
-                                    <img className="d-block w-100" src="./store-3867742_640.jpg" alt="First slide"/>
+                                    <img className="d-block w-100" src={storefrontimg} alt="Best deals and offers from the Service Providers" height="416px"/>
+                                    <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="btn"> Best deals and offers from the Service Providers</h5>
+                                    <p><a class="btn" href="promotions.js"><ShoppingBasketIcon/></a></p>
+                                    </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src="mark-804938_640-1.jpg" alt="Second slide"/>
+                                    <img className="d-block w-100" src={servicestext} alt="See a range of Service Categories to choose from - pick what you need" height="416px"/>
+                                    <div class="carousel-caption d-none d-md-block">
+                                    <h5  class="btn">See a range of Service Categories to choose from - pick what you need</h5>
+                                    <p><a class="btn" href="servicecategories.js"><CategoryIcon/></a></p>
+                                    </div>
                                 </div>
                                 <div className="carousel-item">
-                                    <img className="d-block w-100" src="photomontage-1514218_640.jpg" alt="Third slide"/>
+                                    <img className="d-block w-100" src={photomontage} alt="Get experts from all around to work on your special project - Service Providers" height="416px"/>
+                                    <div class="carousel-caption d-none d-md-block">
+                                    <h5 class="btn">Get experts from all around to work on your special project - Service Providers</h5>
+                                    <p><a class="btn" href="serviceprovider.js"><StoreIcon/></a></p>
+                                    </div>
                                 </div>
                                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
                                     <span className="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -81,15 +101,15 @@ function MyCarousel(){
                         <div className="col-md-3">
                             <div className="header-img">
                                 <div className="img-item">
-                                    <img src="./hand-845269_640.jpg" alt="Your creativity needs expert to come to life - Hire an expert to bring your creative ideas to life"/>
-                                    <a className="img-text" href="">
-                                        <p>Your creativity needs expert to come to life - Hire an expert to bring your creative ideas to life</p>
+                                    <img src={handimg} alt="Your creativity needs expert to come to life - Hire an expert to bring your creative ideas to life"/>
+                                    <a class="btn" className="img-text" href="categorycreate.js">
+                                        <p class="btn">Your creativity needs expert to come to life - Hire an expert to bring your creative ideas to life</p>
                                     </a>
                                 </div>
                                 <div className="img-item">
-                                    <img src="./building-blocks-717309_640.jpg" alt="Need someone to Construct your dream ideas - Click here"/>
-                                    <a className="img-text" href="">
-                                        <p>Need someone to Construct your dream ideas - Click here</p>
+                                    <img src={buildingblocks} alt="Need someone to Construct your dream ideas - Click here"/>
+                                    <a class="btn" className="img-text" href="categoryconstruct.js">
+                                        <p class="btn">Need someone to Construct your dream ideas - Click here</p>
                                     </a>
                                 </div>
                             </div>
