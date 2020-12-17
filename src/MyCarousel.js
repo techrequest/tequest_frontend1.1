@@ -9,11 +9,11 @@ import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
 import AdbIcon from '@material-ui/icons/Adb';
 import MarkunreadMailboxIcon from '@material-ui/icons/MarkunreadMailbox';
 import HowToRegIcon from '@material-ui/icons/HowToReg';
-import photomontage from './photomontage.jpg';
-import servicestext from './servicestext.jpg';
-import storefrontimg from './storefrontimg.jpg';
-import handimg from './handimg.jpg';
-import buildingblocks from './buildingblocks.jpg';
+import photomontage from './images/photomontage.jpg';
+import servicestext from './images/servicestext.jpg';
+import storefrontimg from './images/storefrontimg.jpg';
+import handimg from './images/handimg.jpg';
+import buildingblocks from './images/buildingblocks.jpg';
 import ShoppingBasketIcon from '@material-ui/icons/ShoppingBasket';
 import StoreIcon from '@material-ui/icons/Store';
 
