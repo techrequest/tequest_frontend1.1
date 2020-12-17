@@ -2,37 +2,37 @@ import React from 'react';
 
 function footerMenuItem(){
     return(
-        <div className="footer">
-            <div className="container-fluid">
-                <div className="row">
-                    <div className="col-lg-3 col-md-6">
-                        <div className="footer-widget">
+        <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
                             <h2>Get in Touch</h2>
-                            <div className="contact-info">
-                                <p><i className="fa fa-map-marker"></i>Address Line 1</p>
-                                <p><i className="fa fa-envelope"></i>TeQuestSol@gmail.com</p>
-                                <p><i className="fa fa-phone"></i>+xxx-xxx-xxx-xxxx</p>
+                            <div class="contact-info">
+                                <p><i class="fa fa-map-marker"></i>Address Line 1</p>
+                                <p><i class="fa fa-envelope"></i>TeQuestSol@gmail.com</p>
+                                <p><i class="fa fa-phone"></i>+xxx-xxx-xxx-xxxx</p>
                             </div>
                         </div>
                     </div>
                     
-                    <div className="col-lg-3 col-md-6">
-                        <div className="footer-widget">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
                             <h2>Follow Us</h2>
-                            <div className="contact-info">
-                                <div className="social">
-                                    <a href=""><i className="fab fa-twitter"></i></a>
-                                    <a href=""><i className="fab fa-facebook-f"></i></a>
-                                    <a href=""><i className="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i className="fab fa-instagram"></i></a>
-                                    <a href=""><i className="fab fa-youtube"></i></a>                                
+                            <div class="contact-info">
+                                <div class="social">
+                                    <a href=""><i class="fab fa-twitter"></i></a>
+                                    <a href=""><i class="fab fa-facebook-f"></i></a>
+                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    <a href=""><i class="fab fa-instagram"></i></a>
+                                    <a href=""><i class="fab fa-youtube"></i></a>                                
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-6">
-                        <div className="footer-widget">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
                             <h2>Company Info</h2>
                             <ul>
                                 <li><a href="#">About Us</a></li>
@@ -42,8 +42,8 @@ function footerMenuItem(){
                         </div>
                     </div>
 
-                    <div className="col-lg-3 col-md-6">
-                        <div className="footer-widget">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget">
                             <h2>Purchase Info</h2>
                             <ul>
                                 <li><a href="#">Payment Policy</a></li>
