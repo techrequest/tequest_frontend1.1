@@ -1,5 +1,9 @@
 import React from 'react';
-
+import { AccessAlarm, ThreeDRotation } from '@material-ui/icons';
+import storefrontitaly from './images/storefrontitaly.jpg';
+import storefrontold from './images/storefrontold.jpg';
+import storefronturban from './images/storefronturban.jpg';
+import storefrtontfrench from './images/storefrtontfrench.jpg';
 
 function FeaturedSPs(){
     return (
@@ -22,8 +26,8 @@ function FeaturedSPs(){
                                 </div>
                             </div>
                             <div className="product-image">
-                                <a href="product-detail.html">
-                                    <img src="img/product-1.jpg" alt="Product Image"/>
+                                <a href="productdetail.js">
+                                    <img src={storefrtontfrench} height="150px" alt="Product Image"/>
                                 </a>
                                 <div className="product-action">
                                     <a href="#"><i className="fa fa-cart-plus"></i></a>
@@ -50,8 +54,8 @@ function FeaturedSPs(){
                                 </div>
                             </div>
                             <div className="product-image">
-                                <a href="product-detail.html">
-                                    <img src="img/product-2.jpg" alt="Product Image"/>
+                                <a href="productdetail.js">
+                                    <img src={storefrontitaly} height="150px" alt="Product Image"/>
                                 </a>
                                 <div className="product-action">
                                     <a href="#"><i className="fa fa-cart-plus"></i></a>
@@ -78,8 +82,8 @@ function FeaturedSPs(){
                                 </div>
                             </div>
                             <div className="product-image">
-                                <a href="product-detail.html">
-                                    <img src="img/product-3.jpg" alt="Product Image"/>
+                                <a href="productdetail.js">
+                                    <img src={storefrontold} height="150px" alt="Product Image"/>
                                 </a>
                                 <div className="product-action">
                                     <a href="#"><i className="fa fa-cart-plus"></i></a>
@@ -106,8 +110,8 @@ function FeaturedSPs(){
                                 </div>
                             </div>
                             <div className="product-image">
-                                <a href="product-detail.html">
-                                    <img src="img/product-4.jpg" alt="Product Image"/>
+                                <a href="productdetail.js">
+                                    <img src={storefronturban} height="150px" alt="Product Image"/>
                                 </a>
                                 <div className="product-action">
                                     <a href="#"><i className="fa fa-cart-plus"></i></a>

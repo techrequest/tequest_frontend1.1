@@ -1,6 +1,6 @@
 import React from 'react';
 
-function footerMenuItem(){
+function FooterMenuItems(){
     return(
         <div class="footer">
             <div class="container-fluid">
@@ -59,4 +59,4 @@ function footerMenuItem(){
     )
 }
 
-export default footerMenuItem
+export default FooterMenuItems

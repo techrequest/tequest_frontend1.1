@@ -1,6 +1,6 @@
 import React from 'react';
 
-function boxLabelsPart1(){
+function BoxLabelsPart(){
     return(
             <div className="feature">
                 <div className="container-fluid">
@@ -48,4 +48,4 @@ function boxLabelsPart1(){
     )
 }
 
-export default boxLabelsPart1
+export default BoxLabelsPart

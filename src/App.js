@@ -3,10 +3,11 @@ import React from 'react';
 import NavBar from './NavBar';
 import MyCarousel from './MyCarousel';
 import NavBottom from './NavBottom';
-import boxLabelsPart1 from './boxLabelsPart1';
+import BoxLabelsPart from './BoxLabelsPart';
 import Callforaction from './Callforaction';
 import FeaturedSPs from './FeaturedSPs';
-
+import NewsletterSubscribe from './NewsletterSubscribe';
+import FooterMenuItems from './FooterMenuItems';
 
 function App() {
   return (
@@ -27,21 +28,25 @@ function App() {
           
         </MyCarousel>
 
+        <BoxLabelsPart>
+
+        </BoxLabelsPart>
+
         <Callforaction>
 
         </Callforaction>
-
-        <boxLabelsPart1>
-
-        </boxLabelsPart1>
 
         <FeaturedSPs>
           
         </FeaturedSPs>
 
-        <footerMenuItem>
+        <NewsletterSubscribe>
 
-        </footerMenuItem>
+        </NewsletterSubscribe>
+
+        <FooterMenuItems>
+
+        </FooterMenuItems>
 
         <NavBottom className="fixed-bottom text-light bg-dark">
         Copyright &copy; <a href='index.html' className="text-light bg-dark"> TeQuest </a> - Your Service Provider. All Rights Reserved
