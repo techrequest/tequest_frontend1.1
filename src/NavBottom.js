@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './logo.jpg'
 
 function NavBottom(props) {
     return (

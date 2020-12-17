@@ -1,4 +1,15 @@
 import React from'react';
+import { AccessAlarm, ThreeDRotation } from '@material-ui/icons';
+import HomeIcon from '@material-ui/icons/Home';
+import CardGiftcardIcon from '@material-ui/icons/CardGiftcard';
+import BuildIcon from '@material-ui/icons/Build';
+import CategoryIcon from '@material-ui/icons/Category';
+import CreateIcon from '@material-ui/icons/Create';
+import AccountBalanceIcon from '@material-ui/icons/AccountBalance';
+import AdbIcon from '@material-ui/icons/Adb';
+import MarkunreadMailboxIcon from '@material-ui/icons/MarkunreadMailbox';
+import HowToRegIcon from '@material-ui/icons/HowToReg';
+
 
 function MyCarousel(){
     return (
@@ -9,59 +20,60 @@ function MyCarousel(){
                         <nav className="navbar bg-light">
                             <ul className="navbar-nav">
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Home</a>
+                                    <a className="nav-link" href="index.html">
+                                        <HomeIcon/> Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Promotions</a>
+                                    <a className="nav-link" href="#" ><CardGiftcardIcon/> Promotions</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Service Categories</a>
+                                    <a className="nav-link" href="#"><CategoryIcon/> Service Categories</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Create</a>
+                                    <a className="nav-link" href="#"><CreateIcon/> Create</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Construct</a>
+                                    <a className="nav-link" href="#"><AccountBalanceIcon/> Construct</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Install</a>
+                                    <a className="nav-link" href="#"><AdbIcon/> Install</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Repair</a>
+                                    <a className="nav-link" href="#"><BuildIcon/> Repair</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Manage</a>
+                                    <a className="nav-link" href="#"><HowToRegIcon/> Manage</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="#">Deliver</a>
+                                    <a className="nav-link" href="#"><MarkunreadMailboxIcon/> Deliver</a>
                                 </li>
                             </ul>
                         </nav>
                     </div>
                     <div className="col-md-6">
-                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                            <ol class="carousel-indicators">
-                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
+                            <ol className="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" className="active"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
                             </ol>
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <img class="d-block w-100" src="./store-3867742_640.jpg" alt="First slide"/>
+                            <div className="carousel-inner">
+                                <div className="carousel-item active">
+                                    <img className="d-block w-100" src="./store-3867742_640.jpg" alt="First slide"/>
                                 </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="mark-804938_640-1.jpg" alt="Second slide"/>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100" src="mark-804938_640-1.jpg" alt="Second slide"/>
                                 </div>
-                                <div class="carousel-item">
-                                    <img class="d-block w-100" src="photomontage-1514218_640.jpg" alt="Third slide"/>
+                                <div className="carousel-item">
+                                    <img className="d-block w-100" src="photomontage-1514218_640.jpg" alt="Third slide"/>
                                 </div>
-                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
+                                <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Previous</span>
                                 </a>
-                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
+                                <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span className="sr-only">Next</span>
                                 </a>
                             </div>
                         </div>
@@ -87,5 +99,6 @@ function MyCarousel(){
         </div>
     )
 }
+
 
 export default MyCarousel

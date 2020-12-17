@@ -1,6 +1,6 @@
 import logo from './logo.jpg';
 import React from 'react';
-import NavBottom from './NavBottom';
+
 
 function NavBar(props) {
   return (
@@ -19,7 +19,7 @@ function NavBar(props) {
             <a className="nav-link" href="index.html">Home</a>
         </li>
         <li className="nav-item">
-            <a className="nav-link" href="#">Service Providers</a>
+            <a className="nav-link" href="ServiceProvider.js">Service Providers</a>
         </li>
         <li className="nav-item dropdown">
             <a className="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -67,6 +67,5 @@ function NavBar(props) {
     </nav>
   );
   
-}
-
+}    
 export default NavBar
