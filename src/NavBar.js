@@ -65,17 +65,8 @@ function NavBar(props) {
     </div>
     
     </nav>
-
-    
   );
-  <div>
-        <h1>
-            TeQuest - Your Service Provider
-        </h1>
-        <h3>
-        A platform to bring together all kinds of Services and Service Providers from all over the World!
-        </h3>
-    </div>
+  
 }
 
 export default NavBar
