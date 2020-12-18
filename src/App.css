@@ -7,6 +7,8 @@
 .App-logo {
   height: 10vmin;
   pointer-events: none;
+  padding-left: 100px;
+  padding-right: 25px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -40,11 +42,6 @@
 }
 
 
-.h1 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-color: #fca69e;
-  
-}
 
 /**********************************/
 /********** General CSS ***********/
@@ -68,7 +65,21 @@ a:focus {
   text-decoration: none;
 }
 
-h1 {
+hr {
+  background-color: #fca69e;
+}
+
+h4 {
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-left: 100px;
+  padding-bottom: 20px;
+  background: #fca69e;
+  color:white;
+
+}
+
+h1, h4 {
   font-family: 'Source Code Pro', monospace;
   font-weight: 900;
 }

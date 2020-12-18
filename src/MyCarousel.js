@@ -32,28 +32,28 @@ function MyCarousel(){
                                         <HomeIcon/> Home</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="promotions.js" ><CardGiftcardIcon/> Promotions</a>
+                                    <a className="nav-link" href="ProviderPromotions.js" ><CardGiftcardIcon/> Promotions</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="servicecategories.js"><CategoryIcon/> Service Categories</a>
+                                    <a className="nav-link" href="ServiceCategories.js"><CategoryIcon/> Service Categories</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="categorycreate.js"><CreateIcon/> Create</a>
+                                    <a className="nav-link" href="CategoryCreate.js"><CreateIcon/> Create</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="categoryconstruct.js"><AccountBalanceIcon/> Construct</a>
+                                    <a className="nav-link" href="CategoryConstruct.js"><AccountBalanceIcon/> Construct</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="categoryinstall.js"><AdbIcon/> Install</a>
+                                    <a className="nav-link" href="CategoryInstall.js"><AdbIcon/> Install</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="categoryrepair.js"><BuildIcon/> Repair</a>
+                                    <a className="nav-link" href="CategoryRepair.js"><BuildIcon/> Repair</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="categorymanage.js"><HowToRegIcon/> Manage</a>
+                                    <a className="nav-link" href="CategoryManage.js"><HowToRegIcon/> Manage</a>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link" href="categorydeliver.js"><MarkunreadMailboxIcon/> Deliver</a>
+                                    <a className="nav-link" href="CategoryDeliver.js"><MarkunreadMailboxIcon/> Deliver</a>
                                 </li>
                             </ul>
                         </nav>
@@ -70,21 +70,21 @@ function MyCarousel(){
                                     <img className="d-block w-100" src={storefrontimg} alt="Best deals and offers from the Service Providers" height="416px"/>
                                     <div class="carousel-caption d-none d-md-block">
                                     <h5 class="btn"> Best deals and offers from the Service Providers</h5>
-                                    <p><a class="btn" href="promotions.js"><ShoppingBasketIcon/></a></p>
+                                    <p><a class="btn" href="ProviderPromotions.js"><ShoppingBasketIcon/></a></p>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className="d-block w-100" src={servicestext} alt="See a range of Service Categories to choose from - pick what you need" height="416px"/>
                                     <div class="carousel-caption d-none d-md-block">
                                     <h5  class="btn">See a range of Service Categories to choose from - pick what you need</h5>
-                                    <p><a class="btn" href="servicecategories.js"><CategoryIcon/></a></p>
+                                    <p><a class="btn" href="ServiceCategories.js"><CategoryIcon/></a></p>
                                     </div>
                                 </div>
                                 <div className="carousel-item">
                                     <img className="d-block w-100" src={photomontage} alt="Get experts from all around to work on your special project - Service Providers" height="416px"/>
                                     <div class="carousel-caption d-none d-md-block">
                                     <h5 class="btn">Get experts from all around to work on your special project - Service Providers</h5>
-                                    <p><a class="btn" href="serviceprovider.js"><StoreIcon/></a></p>
+                                    <p><a class="btn" href="ServiceProvidersList.js"><StoreIcon/></a></p>
                                     </div>
                                 </div>
                                 <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -102,13 +102,13 @@ function MyCarousel(){
                             <div className="header-img">
                                 <div className="img-item">
                                     <img src={handimg} alt="Your creativity needs expert to come to life - Hire an expert to bring your creative ideas to life"/>
-                                    <a class="btn" className="img-text" href="categorycreate.js">
+                                    <a class="btn" className="img-text" href="CategoryCreate.js">
                                         <p class="btn">Your creativity needs expert to come to life - Hire an expert to bring your creative ideas to life</p>
                                     </a>
                                 </div>
                                 <div className="img-item">
                                     <img src={buildingblocks} alt="Need someone to Construct your dream ideas - Click here"/>
-                                    <a class="btn" className="img-text" href="categoryconstruct.js">
+                                    <a class="btn" className="img-text" href="CategoryConstruct.js">
                                         <p class="btn">Need someone to Construct your dream ideas - Click here</p>
                                     </a>
                                 </div>

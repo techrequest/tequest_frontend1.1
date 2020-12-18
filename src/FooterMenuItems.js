@@ -21,11 +21,11 @@ function FooterMenuItems(){
                             <h2>Follow Us</h2>
                             <div class="contact-info">
                                 <div class="social">
-                                    <a href=""><i class="fab fa-twitter"></i></a>
-                                    <a href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a href=""><i class="fab fa-instagram"></i></a>
-                                    <a href=""><i class="fab fa-youtube"></i></a>                                
+                                    <a href="index.html"><i class="fab fa-twitter"></i></a>
+                                    <a href="index.html"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="index.html"><i class="fab fa-linkedin-in"></i></a>
+                                    <a href="index.html"><i class="fab fa-instagram"></i></a>
+                                    <a href="index.html"><i class="fab fa-youtube"></i></a>                                
                                 </div>
                             </div>
                         </div>
@@ -35,9 +35,9 @@ function FooterMenuItems(){
                         <div class="footer-widget">
                             <h2>Company Info</h2>
                             <ul>
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Privacy Policy</a></li>
-                                <li><a href="#">Terms and Condition</a></li>
+                                <li><a href="#AboutUs.js">About Us</a></li>
+                                <li><a href="PrivacyPolicy.js">Privacy Policy</a></li>
+                                <li><a href="TNC.js">Terms and Condition</a></li>
                             </ul>
                         </div>
                     </div>
@@ -46,14 +46,17 @@ function FooterMenuItems(){
                         <div class="footer-widget">
                             <h2>Purchase Info</h2>
                             <ul>
-                                <li><a href="#">Payment Policy</a></li>
-                                <li><a href="#">Shipping Policy</a></li>
-                                <li><a href="#">Return Policy</a></li>
+                                <li><a href="PaymentPolicy.js">Payment Policy</a></li>
+                                <li><a href="ShippingPolicy.js">Shipping Policy</a></li>
+                                <li><a href="ReturnPolicy.js">Return Policy</a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
+            <p>
+                &nbsp;<br/>
+            </p>
         </div>
 
     )
